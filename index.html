@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<!-- saved from url=(0039)https://ai4hpcc.github.io/ai4hpcc-2026/ -->
+<html lang="en" data-qb-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <title>AI4HPCC Workshop 2026</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -259,6 +259,54 @@
       line-height: 1.7;
     }
 
+    /* Agenda */
+    .agenda-table-wrapper {
+      overflow-x: auto;
+      margin: 25px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .agenda-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+      background: #fff;
+    }
+
+    .agenda-table th,
+    .agenda-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e6e9f0;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .agenda-table th {
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      color: #fff;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .agenda-table tr:nth-child(even) td {
+      background: #f8f9fa;
+    }
+
+    .agenda-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .agenda-table td:first-child {
+      white-space: nowrap;
+      color: #1e3c72;
+      font-weight: 600;
+    }
+
+    .agenda-table td:nth-child(2) {
+      min-width: 300px;
+    }
+
     footer {
       margin-top: 0;
       padding: 30px;
@@ -329,7 +377,7 @@
   </style>
 </head>
 
-<body>
+<body data-new-gr-c-s-check-loaded="14.1138.0" data-gr-ext-installed="">
 
 <header>
   <h1>AI for High Performance Compiler Construction (AI4HPCC)</h1>
@@ -408,16 +456,117 @@
   </p>
 
   <h2>Agenda</h2>
-  <ul>
-    <li>To be confirmed</li>
-  </ul>
+  <div class="agenda-table-wrapper">
+    <table class="agenda-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Title</th>
+          <th>Speaker</th>
+          <th>Affiliation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:20 - 09:30 (10 min)</td>
+          <td>Welcome and Opening Remarks</td>
+          <td>HuiminCui &amp; Zheng Wang</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>09:30 - 09:50 (20 min)</td>
+          <td>From Naive CUDA to Triton: A Systematic Evaluation of AI-Era HPC Operator Development</td>
+          <td>Chunwei Xia</td>
+          <td>University of Leeds</td>
+        </tr>
+        <tr>
+          <td>09:50 - 10:10 (20 min)</td>
+          <td>FHECrafter: A Multi-Agent Framework for Automated Fully Homomorphic Encrypted Tensor Program Generation</td>
+          <td>Qiuchu Yu</td>
+          <td>University of Chinese Academy of Sciences</td>
+        </tr>
+        <tr>
+          <td>10:10 - 10:20 (10 min)</td>
+          <td>Coffee Break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10:20 - 10:40 (20 min)</td>
+          <td>Towards fully automated compiler backend generation with multi-agent systems: how far are we? (Online)</td>
+          <td>Ming Zhong</td>
+          <td>The Chinese University of Hong Kong</td>
+        </tr>
+        <tr>
+          <td>10:40 - 11:00 (20 min)</td>
+          <td>Agent-Agnostic End-to-End C/C++ Application Performance Optimization</td>
+          <td>Chunwei Xia</td>
+          <td>University of Leeds</td>
+        </tr>
+        <tr>
+          <td>11:00 - 11:20 (20 min)</td>
+          <td>Compiler-ASR: Bridging the IR-to-Assembly Gap for Compiler Optimization via Architecture-Specific Reward (Online)</td>
+          <td>Kai Zhang</td>
+          <td>Beijing University of Posts and Telecommunications</td>
+        </tr>
+        <tr>
+          <td>11:20 - 13:00 (100 min)</td>
+          <td>Lunch Break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13:00 - 13:20 (20 min)</td>
+          <td>Augmenting LLM Code Translation with Compiler Analysis for C to Triton Kernel Generation</td>
+          <td>Xiao Qin</td>
+          <td>University of Leeds</td>
+        </tr>
+        <tr>
+          <td>13:20 - 13:40 (20 min)</td>
+          <td>CoLo: Correcting LLM-Generated IR with Precise Error Location (Online)</td>
+          <td>Jiahao Chen</td>
+          <td>China West Normal University</td>
+        </tr>
+        <tr>
+          <td>13:40 - 14:00 (20 min)</td>
+          <td>Enhance Performance Tuning via LLM-guided Search Templates</td>
+          <td>yassine marzouki</td>
+          <td>University of Leeds</td>
+        </tr>
+        <tr>
+          <td>14:00 - 14:10 (10 min)</td>
+          <td>Coffee Break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14:10 - 14:30 (20 min)</td>
+          <td>RV-IR: An MLIR-Based Architecture-Aware Intermediate Representation for Heterogeneous RISC-V AI Acceleration (Online)</td>
+          <td>Zexin Jian</td>
+          <td>University of Chinese Academy of Sciences</td>
+        </tr>
+        <tr>
+          <td>14:30 - 14:50 (20 min)</td>
+          <td>CompLift:LLM-Assisted Compiler API Migration with Semantic Alignment (Online)</td>
+          <td>Yang Yang</td>
+          <td>China West Normal University</td>
+        </tr>
+        <tr>
+          <td>14:50 - 15:00 (10 min)</td>
+          <td>Closing Remarks</td>
+          <td>HuiminCui &amp; Zheng Wang</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
   <h2>Organizing Committee</h2>
 
   <h3 style="margin-top: 30px; margin-bottom: 20px; color: #2f3e4e; font-size: 22px; font-weight: 600;">Workshop 2026 Organizers</h3>
 
   <div class="organizer">
-    <img src="image/organizers/huimincui.jpg" alt="Huimin Cui">
+    <img src="./AI4HPCC Workshop 2026_files/huimincui.jpg" alt="Huimin Cui">
     <div class="organizer-info">
       <strong>Huimin Cui</strong>
       <p>
@@ -430,7 +579,7 @@
   </div>
 
   <div class="organizer">
-    <img src="image/organizers/zhengwang.jpg" alt="Zheng Wang">
+    <img src="./AI4HPCC Workshop 2026_files/zhengwang.jpg" alt="Zheng Wang">
     <div class="organizer-info">
       <strong>Zheng Wang</strong>
       <p>
@@ -442,7 +591,7 @@
   </div>
 
   <div class="organizer">
-    <img src="image/organizers/jiachengzhao.jpg" alt="Jiacheng Zhao">
+    <img src="./AI4HPCC Workshop 2026_files/jiachengzhao.jpg" alt="Jiacheng Zhao">
     <div class="organizer-info">
       <strong>Jiacheng Zhao</strong>
       <p>
@@ -454,7 +603,7 @@
   </div>
 
   <div class="organizer">
-    <img src="image/organizers/fanglyu.jpg" alt="Fang Lyu">
+    <img src="./AI4HPCC Workshop 2026_files/fanglyu.jpg" alt="Fang Lyu">
     <div class="organizer-info">
       <strong>Fang Lyu</strong>
       <p>
@@ -466,7 +615,7 @@
   </div>
 
   <div class="organizer">
-    <img src="image/organizers/yingliu.jpg" alt="Ying Liu">
+    <img src="./AI4HPCC Workshop 2026_files/yingliu.jpg" alt="Ying Liu">
     <div class="organizer-info">
       <strong>Ying Liu</strong>
       <p>
@@ -478,7 +627,7 @@
   </div>
 
   <div class="organizer">
-    <img src="image/organizers/chenxiwang.jpg" alt="Chenxi Wang">
+    <img src="./AI4HPCC Workshop 2026_files/chenxiwang.jpg" alt="Chenxi Wang">
     <div class="organizer-info">
       <strong>Chenxi Wang</strong>
       <p>
@@ -516,6 +665,27 @@
   © 2026 AI4HPCC Workshop | All Rights Reserved
 </footer>
 
-</body>
-</html>  
 
+  
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
